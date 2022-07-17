@@ -11,10 +11,10 @@
 
 .about-list__item {
     position: relative;
-}
 
-.about-list__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .about-list__txt {
